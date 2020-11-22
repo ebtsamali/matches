@@ -1,0 +1,16 @@
+@import "src/styles/main";
+
+#filter-form {
+	display: flex;
+	justify-content: space-between;
+	margin-top: $margin_top;
+
+	.search {
+		margin-right: 15px;
+		margin-top: 32px;
+	}
+
+	.date-filter {
+		margin-left: $margin_left;
+	}
+}
